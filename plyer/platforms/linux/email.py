@@ -5,6 +5,7 @@ try:
 except ImportError:
     from urllib import quote
 from plyer.utils import whereis_exe
+from plyer.facades import Email
 
 
 class LinuxEmail(Email):
